@@ -12,8 +12,8 @@ import { styleMap } from "lit-html/directives/style-map";
 
 @customElement("before-after-slider")
 export class BeforeAfterSlider extends LitElement {
-  @query("#parent")
-  parent: HTMLElement;
+  @query("#container")
+  container: HTMLElement;
 
   @property({ type: String })
   left: string;
@@ -32,8 +32,18 @@ export class BeforeAfterSlider extends LitElement {
 
   static get styles(): CSSResult {
     return css`
-      .parent {
+      :host {
+        font-size: 0px;
+      }
+
+      :focus {
+        outline: 2px solid rgba(90, 160, 215, 0.5);
+        outline-offset: 2px;
+      }
+
+      .container {
         position: relative;
+        overflow: hidden;
       }
 
       .after {
@@ -41,7 +51,45 @@ export class BeforeAfterSlider extends LitElement {
         left: 0;
         top: 0;
         bottom: 0;
-        border-right: 2px solid white;
+      }
+
+      .handle {
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        top: 50%;
+        margin-left: -19px;
+        margin-top: -19px;
+        border: 3px solid white;
+        border-radius: 19px;
+        box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+        cursor: ew-resize;
+      }
+
+      .handle:before {
+        content: " ";
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        margin-bottom: 19px;
+        margin-left: -1.5px;
+        width: 3px;
+        height: 1000px;
+        background: white;
+        box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+      }
+
+      .handle:after {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 19px;
+        margin-left: -1.5px;
+        width: 3px;
+        height: 1000px;
+        background: white;
+        box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
       }
 
       .after-overlay {
@@ -71,7 +119,7 @@ export class BeforeAfterSlider extends LitElement {
     });
 
     window.addEventListener("resize", () => {
-      this.width = this.parent.offsetWidth;
+      this.width = this.container.offsetWidth;
     });
   }
 
@@ -111,14 +159,14 @@ export class BeforeAfterSlider extends LitElement {
 
   slideToPercentage(x: number): void {
     this.percentage =
-      (100 * (x - this.parent.offsetLeft)) / this.parent.offsetWidth;
+      (100 * (x - this.container.offsetLeft)) / this.container.offsetWidth;
   }
 
   render(): TemplateResult {
     return html`
       <div
-        class="parent"
-        id="parent"
+        class="container"
+        id="container"
         @mousedown="${this.handleMouseDown}"
         @touchstart="${this.handleTouchStart}"
         @mousemove="${this.handleMouseMove}"
@@ -127,7 +175,7 @@ export class BeforeAfterSlider extends LitElement {
         @touchend="${this.handleTouchEnd}"
       >
         <div>
-          <slot name="before"></slot>
+          <slot name="right"></slot>
           <div
             class="label"
             style=${styleMap({
@@ -150,7 +198,7 @@ export class BeforeAfterSlider extends LitElement {
                 width: `${this.width}px`
               })}
             >
-              <slot id="after" name="after"></slot>
+              <slot id="after" name="left"></slot>
               <div
                 class="label"
                 style=${styleMap({
@@ -162,11 +210,17 @@ export class BeforeAfterSlider extends LitElement {
             </div>
           </div>
         </div>
+        <div
+          class="handle"
+          style=${styleMap({
+            left: `${this.percentage}%`
+          })}
+        ></div>
       </div>
     `;
   }
 
   firstUpdated(): void {
-    this.width = this.parent.offsetWidth;
+    this.width = this.container.offsetWidth;
   }
 }

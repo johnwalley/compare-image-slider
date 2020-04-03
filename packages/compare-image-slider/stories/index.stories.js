@@ -1,7 +1,7 @@
 import { html } from "lit-html";
 import "../src/before-after-slider.ts";
-import before from "./images/before.jpg";
-import after from "./images/after.jpg";
+import before from "./images/asite1-1.jpg";
+import after from "./images/asite1-2.jpg";
 
 export default {
   title: "Demo"
@@ -9,7 +9,7 @@ export default {
 
 export const Slider = () => html`
   <before-after-slider>
-    <img slot="before" width="100%" src=${before} />
-    <img slot="after" width="100%" src=${after} />
+    <img slot="left" width="100%" src=${after} />
+    <img slot="right" width="100%" src=${before} />
   </before-after-slider>
 `;
