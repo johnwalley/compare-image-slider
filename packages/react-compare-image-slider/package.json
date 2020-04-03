@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "compare-image-slider": "1.0.0"
   },
