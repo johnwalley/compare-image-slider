@@ -19,19 +19,19 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@rollup/plugin-node-resolve": "^7.1.1",
-    "@rollup/plugin-typescript": "^4.0.0",
-    "@storybook/addon-actions": "^5.3.18",
-    "@storybook/addon-links": "^5.3.18",
-    "@storybook/addons": "^5.3.18",
+    "@babel/core": "^7.10.3",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-typescript": "^5.0.1",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
     "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/react": "^5.3.18",
+    "@storybook/react": "^5.3.19",
     "babel-loader": "^8.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "rollup": "^2.3.0",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3"
+    "rollup": "^2.18.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5"
   }
 }

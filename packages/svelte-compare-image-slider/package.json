@@ -12,13 +12,13 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@rollup/plugin-node-resolve": "^6.0.0",
-    "@storybook/svelte": "^5.3.18",
+    "@babel/core": "^7.10.3",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@storybook/svelte": "^5.3.19",
     "babel-loader": "^8.1.0",
-    "rollup": "^1.20.0",
-    "rollup-plugin-svelte": "^5.0.0",
-    "svelte": "^3.0.0",
+    "rollup": "^2.18.1",
+    "rollup-plugin-svelte": "^5.2.3",
+    "svelte": "^3.23.2",
     "svelte-loader": "^2.13.6"
   },
   "keywords": [

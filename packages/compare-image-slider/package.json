@@ -13,20 +13,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-decorators": "^7.8.3",
-    "@rollup/plugin-node-resolve": "^7.1.1",
-    "@rollup/plugin-typescript": "^4.0.0",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-typescript": "^5.0.1",
     "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/web-components": "^5.3.17",
+    "@storybook/web-components": "^5.3.19",
     "babel-loader": "^8.1.0",
-    "fork-ts-checker-webpack-plugin": "^4.1.2",
-    "rollup": "^2.2.0",
+    "fork-ts-checker-webpack-plugin": "^5.0.5",
+    "rollup": "^2.18.1",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "ts-loader": "^6.2.2",
-    "tslib": "^1.11.1",
-    "typescript": "^3.8.3"
+    "ts-loader": "^7.0.5",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
   },
   "dependencies": {
     "lit-element": "^2.3.1"
