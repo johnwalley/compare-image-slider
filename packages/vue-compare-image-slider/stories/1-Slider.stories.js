@@ -1,4 +1,4 @@
-import VueCompareImageSlider from "../src/components/HelloWorld";
+import VueCompareImageSlider from "../src/components/VueCompareImageSlider";
 import before from "./images/before.jpg";
 import after from "./images/after.jpg";
 
