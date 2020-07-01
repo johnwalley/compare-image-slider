@@ -1,6 +1,6 @@
 {
   "name": "react-compare-image-slider",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "src"
   ],
   "dependencies": {
-    "compare-image-slider": "^0.1.0"
+    "compare-image-slider": "^0.1.5"
   },
   "peerDependencies": {
     "react": "^16.13.0",

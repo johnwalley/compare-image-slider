@@ -1,6 +1,6 @@
 {
   "name": "compare-image-slider",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "",
   "main": "build/before-after-slider.js",
   "module": "src/before-after-slider.js",
