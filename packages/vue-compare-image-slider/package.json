@@ -1,13 +1,16 @@
 {
   "name": "vue-compare-image-slider",
   "version": "0.1.5",
-  "private": true,
   "main": "dist/vue-compare-image-slider.umd.js",
   "module": "dist/vue-compare-image-slider.esm.js",
   "unpkg": "dist/vue-compare-image-slider.min.js",
   "browser": {
     "./sfc": "src/components/vue-compare-image-slider.vue"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/components/VueCompareImageSlider.vue",
