@@ -1,6 +1,6 @@
 {
   "name": "vue-compare-image-slider",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "main": "dist/vue-compare-image-slider.umd.js",
   "module": "dist/vue-compare-image-slider.esm.js",
   "unpkg": "dist/vue-compare-image-slider.min.js",
