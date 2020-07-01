@@ -30,6 +30,6 @@
     "dist"
   ],
   "dependencies": {
-    "compare-image-slider": "^1.0.0"
+    "compare-image-slider": "^0.1.0"
   }
 }

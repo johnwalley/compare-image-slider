@@ -26,6 +26,7 @@
     "@storybook/web-components": "^5.3.19",
     "babel-loader": "^8.1.0",
     "fork-ts-checker-webpack-plugin": "^5.0.5",
+    "lit-html": "^1.2.1",
     "rollup": "^2.18.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "ts-loader": "^7.0.5",
