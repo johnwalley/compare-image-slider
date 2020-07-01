@@ -1,6 +1,6 @@
 {
   "name": "react-compare-image-slider",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "",
   "main": "build/index.js",
   "scripts": {
