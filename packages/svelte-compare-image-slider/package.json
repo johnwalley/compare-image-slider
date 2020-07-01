@@ -1,6 +1,7 @@
 {
   "name": "svelte-compare-image-slider",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
