@@ -112,12 +112,6 @@ export class BeforeAfterSlider extends LitElement {
   constructor() {
     super();
 
-    //this.setAttribute("tabindex", "0");
-
-    this.querySelectorAll("img").forEach((img) => {
-      //img.setAttribute("draggable", "false");
-    });
-
     window.addEventListener("resize", () => {
       this.width = this.container.offsetWidth;
     });
