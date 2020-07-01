@@ -6,7 +6,7 @@ import {
   html,
   customElement,
   property,
-  query
+  query,
 } from "lit-element";
 import { styleMap } from "lit-html/directives/style-map";
 
@@ -112,10 +112,10 @@ export class BeforeAfterSlider extends LitElement {
   constructor() {
     super();
 
-    this.setAttribute("tabindex", "0");
+    //this.setAttribute("tabindex", "0");
 
-    this.querySelectorAll("img").forEach(img => {
-      img.setAttribute("draggable", "false");
+    this.querySelectorAll("img").forEach((img) => {
+      //img.setAttribute("draggable", "false");
     });
 
     window.addEventListener("resize", () => {
@@ -180,7 +180,7 @@ export class BeforeAfterSlider extends LitElement {
             class="label"
             style=${styleMap({
               right: "0px",
-              visibility: this.right ? "visible" : "hidden"
+              visibility: this.right ? "visible" : "hidden",
             })}
           >
             ${this.right}
@@ -189,20 +189,20 @@ export class BeforeAfterSlider extends LitElement {
         <div
           class="after"
           style=${styleMap({
-            width: `${this.percentage}%`
+            width: `${this.percentage}%`,
           })}
         >
           <div class="after-overlay">
             <div
               style=${styleMap({
-                width: `${this.width}px`
+                width: `${this.width}px`,
               })}
             >
               <slot id="after" name="left"></slot>
               <div
                 class="label"
                 style=${styleMap({
-                  visibility: this.left ? "visible" : "hidden"
+                  visibility: this.left ? "visible" : "hidden",
                 })}
               >
                 ${this.left}
@@ -213,7 +213,7 @@ export class BeforeAfterSlider extends LitElement {
         <div
           class="handle"
           style=${styleMap({
-            left: `${this.percentage}%`
+            left: `${this.percentage}%`,
           })}
         ></div>
       </div>

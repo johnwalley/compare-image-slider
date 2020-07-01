@@ -15,8 +15,8 @@
     "compare-image-slider": "1.0.0"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -32,6 +32,7 @@
     "react-dom": "^16.13.1",
     "rollup": "^2.18.1",
     "ts-loader": "^7.0.5",
+    "tslib": "^2.0.0",
     "typescript": "^3.9.5"
   }
 }

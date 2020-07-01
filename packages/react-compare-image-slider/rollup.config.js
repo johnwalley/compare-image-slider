@@ -9,7 +9,7 @@ export default {
     file: "build/index.js",
     format: "umd",
     sourcemap: true,
-    globals: { react: "React" }
+    globals: { react: "React" },
   },
-  plugins: [resolve(), typescript()]
+  plugins: [resolve(), typescript({ noEmitOnError: false })],
 };

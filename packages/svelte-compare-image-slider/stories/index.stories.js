@@ -1,21 +1,13 @@
-import { action } from "@storybook/addon-actions";
-import Component from "./button.svelte";
+import Slider from "./slider.svelte";
+import leftImage from "./images/asite1-1.jpg";
+import rightImage from "./images/asite1-2.jpg";
 
 export default {
-  title: "Component",
-  component: Component
+  title: "Demo",
+  component: Slider,
 };
 
-export const Text = () => ({
-  Component: Component,
-  props: { text: "Hello Button" },
-  on: { click: action("clicked") }
-});
-
-export const Emoji = () => ({
-  Component: Component,
-  props: {
-    text: "😀 😎 👍 💯"
-  },
-  on: { click: action("clicked") }
+export const Default = () => ({
+  Component: Slider,
+  props: { leftImage: leftImage, rightImage: rightImage },
 });

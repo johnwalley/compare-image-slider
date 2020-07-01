@@ -1,23 +1,12 @@
 /// <reference path='../images.d.ts'/>
 import * as React from "react";
-import { Button } from "@storybook/react/demo";
 import { ReactCompareImageSlider } from "../src/react-compare-image-slider";
-import leftImage from "./images/before.jpg";
-import rightImage from "./images/after.jpg";
+import leftImage from "./images/asite1-1.jpg";
+import rightImage from "./images/asite1-2.jpg";
 
-export default { title: "Button" };
+export default { title: "Demo", component: ReactCompareImageSlider };
 
-export const withText = () => <Button>Hello Button</Button>;
-
-export const withEmoji = (): JSX.Element => (
-  <Button>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
-  </Button>
-);
-
-export const withSlider = () => (
+export const Slider = () => (
   <div>
     <ReactCompareImageSlider leftImage={leftImage} rightImage={rightImage} />
   </div>
