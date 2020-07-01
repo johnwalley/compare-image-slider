@@ -12,6 +12,10 @@
   },
   "author": "",
   "license": "ISC",
+  "files": [
+    "build",
+    "src"
+  ],
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
