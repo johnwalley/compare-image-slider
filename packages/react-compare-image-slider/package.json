@@ -11,6 +11,10 @@
   },
   "author": "",
   "license": "MIT",
+  "files": [
+    "build",
+    "src"
+  ],
   "dependencies": {
     "compare-image-slider": "1.0.0"
   },
