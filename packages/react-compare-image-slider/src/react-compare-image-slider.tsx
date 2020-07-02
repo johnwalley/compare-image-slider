@@ -1,14 +1,6 @@
 import * as React from "react";
 import "compare-image-slider";
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      "before-after-slider": any;
-    }
-  }
-}
-
 export function ReactCompareImageSlider({
   leftImage,
   rightImage,
@@ -21,4 +13,12 @@ export function ReactCompareImageSlider({
       </before-after-slider>
     </>
   );
+}
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      "before-after-slider": any;
+    }
+  }
 }

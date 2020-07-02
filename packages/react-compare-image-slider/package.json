@@ -2,7 +2,8 @@
   "name": "react-compare-image-slider",
   "version": "0.1.5",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/index.umd.js",
+  "module": "build/index.js",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +16,7 @@
     "build",
     "src"
   ],
+  "types": "build/types/react-compare-image-slider.d.ts",
   "dependencies": {
     "compare-image-slider": "^0.1.5"
   },
@@ -25,7 +27,6 @@
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@rollup/plugin-node-resolve": "^8.1.0",
-    "@rollup/plugin-typescript": "^5.0.1",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
@@ -35,8 +36,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^2.18.1",
+    "rollup-plugin-typescript2": "^0.27.1",
     "ts-loader": "^7.0.5",
     "tslib": "^2.0.0",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.6"
   }
 }

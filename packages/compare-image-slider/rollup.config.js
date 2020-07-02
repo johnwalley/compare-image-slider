@@ -1,20 +1,21 @@
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "@rollup/plugin-typescript";
+import pkg from "./package.json";
 
 export default {
   input: ["src/before-after-slider.ts"],
   output: [
     {
-      file: "build/before-after-slider.js",
+      file: pkg.module,
       format: "es",
-      sourcemap: true
+      sourcemap: true,
     },
     {
       name: "CompareImageSlider",
-      file: "build/before-after-slider.umd.js",
+      file: pkg.main,
       format: "umd",
-      sourcemap: true
-    }
+      sourcemap: true,
+    },
   ],
-  plugins: [resolve(), typescript()]
+  plugins: [resolve(), typescript()],
 };

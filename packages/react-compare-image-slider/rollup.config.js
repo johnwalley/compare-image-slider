@@ -1,5 +1,5 @@
 import resolve from "@rollup/plugin-node-resolve";
-import typescript from "@rollup/plugin-typescript";
+import typescript from "rollup-plugin-typescript2";
 
 export default {
   input: ["src/react-compare-image-slider.tsx"],
@@ -11,5 +11,12 @@ export default {
     sourcemap: true,
     globals: { react: "React" },
   },
-  plugins: [resolve(), typescript({ noEmitOnError: false })],
+  // eslint-disable-next-line no-undef
+  plugins: [
+    resolve(),
+    typescript({
+      typescript: require("typescript"),
+      useTsconfigDeclarationDir: true,
+    }),
+  ],
 };
