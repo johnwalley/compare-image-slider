@@ -1,5 +1,6 @@
 import resolve from "@rollup/plugin-node-resolve";
 import typescript from "rollup-plugin-typescript2";
+import pkg from "./package.json";
 
 export default {
   input: ["src/react-compare-image-slider.tsx"],
@@ -7,13 +8,13 @@ export default {
   output: [
     {
       name: "ReactCompareImageSlider",
-      file: "build/index.umd.js",
+      file: pkg.main,
       format: "umd",
       sourcemap: true,
       globals: { react: "React" },
     },
     {
-      file: "build/index.js",
+      file: pkg.module,
       format: "es",
       sourcemap: true,
       globals: { react: "React" },
