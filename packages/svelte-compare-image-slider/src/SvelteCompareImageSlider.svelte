@@ -1,5 +1,4 @@
 <script>
-  import { createEventDispatcher } from "svelte";
   import "compare-image-slider";
 
   export let leftImage;
