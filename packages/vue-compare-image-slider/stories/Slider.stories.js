@@ -1,4 +1,4 @@
-import VueCompareImageSlider from "../src/components/VueCompareImageSlider";
+import VueCompareImageSlider from "../src/VueCompareImageSlider";
 import before from "./images/asite1-1.jpg";
 import after from "./images/asite1-2.jpg";
 
@@ -9,5 +9,5 @@ export default {
 
 export const Default = () => ({
   components: { VueCompareImageSlider },
-  template: `<VueCompareImageSlider leftImage=${before} rightImage=${after}/>`,
+  template: `<VueCompareImageSlider leftImage=${before} rightImage=${after} />`,
 });

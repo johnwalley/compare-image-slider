@@ -2,6 +2,9 @@
   "name": "react-compare-image-slider",
   "version": "0.1.10",
   "description": "",
+  "keywords": [
+    "react"
+  ],
   "main": "build/index.umd.js",
   "module": "build/index.js",
   "repository": {
@@ -9,25 +12,21 @@
     "url": "https://github.com/johnwalley/compare-image-slider.git",
     "directory": "packages/react-compare-image-slider"
   },
-  "scripts": {
-    "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
   "author": "",
   "license": "MIT",
   "files": [
     "build",
     "src"
   ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "types": "build/types/react-compare-image-slider.d.ts",
   "dependencies": {
     "compare-image-slider": "^0.1.10"
-  },
-  "peerDependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
@@ -45,5 +44,9 @@
     "ts-loader": "^7.0.5",
     "tslib": "^2.0.0",
     "typescript": "^3.9.6"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }

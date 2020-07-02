@@ -2,6 +2,9 @@
   "name": "compare-image-slider",
   "version": "0.1.10",
   "description": "",
+  "keywords": [
+    "web-component"
+  ],
   "main": "build/compare-image-slider.js",
   "module": "build/compare-image-slider.js",
   "repository": {
@@ -9,18 +12,18 @@
     "url": "https://github.com/johnwalley/compare-image-slider.git",
     "directory": "packages/compare-image-slider"
   },
-  "scripts": {
-    "build": "rollup -c",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  },
   "author": "",
   "license": "MIT",
   "files": [
     "build",
     "src"
   ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "types": "build/types/compare-image-slider.d.ts",
   "dependencies": {
     "lit-element": "^2.3.1"

@@ -1,26 +1,27 @@
 {
   "name": "vue-compare-image-slider",
   "version": "0.1.11",
+  "keywords": [
+    "vue"
+  ],
   "main": "dist/vue-compare-image-slider.umd.js",
   "module": "dist/vue-compare-image-slider.esm.js",
   "unpkg": "dist/vue-compare-image-slider.min.js",
+  "browser": {
+    "./sfc": "src/components/vue-compare-image-slider.vue"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/johnwalley/compare-image-slider.git",
     "directory": "packages/vue-compare-image-slider"
   },
-  "browser": {
-    "./sfc": "src/components/vue-compare-image-slider.vue"
-  },
+  "license": "MIT",
   "files": [
     "dist",
     "src"
   ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/components/VueCompareImageSlider.vue",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
+    "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/VueCompareImageSlider.vue",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -45,14 +46,11 @@
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
     "@vue/cli-plugin-babel": "~4.4.6",
-    "@vue/cli-plugin-e2e-cypress": "~4.4.6",
     "@vue/cli-plugin-eslint": "~4.4.6",
     "@vue/cli-plugin-typescript": "~4.4.6",
-    "@vue/cli-plugin-unit-jest": "~4.4.6",
     "@vue/cli-service": "~4.4.6",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
-    "@vue/test-utils": "1.0.3",
     "babel-loader": "^8.1.0",
     "babel-preset-vue": "^2.0.2",
     "eslint": "^7.3.1",
