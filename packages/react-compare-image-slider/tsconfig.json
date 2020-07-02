@@ -4,7 +4,9 @@
     "target": "es5",
     "jsx": "react",
     "declaration": true,
-    "declarationDir": "build/types"
+    "declarationDir": "build/types",
+    "moduleResolution": "node"
+
   },
   "include": ["src"]
 }
