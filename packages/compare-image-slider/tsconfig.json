@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2017",
     "module": "es2015",
-    "moduleResolution": "node",
+    "target": "es2017",
     "lib": ["es2017", "dom"],
-    "rootDirs": ["src", "stories"],
+    "declaration": true,
+    "declarationDir": "build/types",
+    "moduleResolution": "node",
     "experimentalDecorators": true
-  }
+  },
+  "include": ["src"]
 }

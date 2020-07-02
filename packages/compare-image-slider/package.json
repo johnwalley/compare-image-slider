@@ -2,8 +2,8 @@
   "name": "compare-image-slider",
   "version": "0.1.9",
   "description": "",
-  "main": "build/before-after-slider.js",
-  "module": "build/before-after-slider.js",
+  "main": "build/compare-image-slider.js",
+  "module": "build/compare-image-slider.js",
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,11 +11,15 @@
     "build-storybook": "build-storybook"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "files": [
     "build",
     "src"
   ],
+  "types": "build/types/compare-image-slider.d.ts",
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
@@ -29,11 +33,9 @@
     "lit-html": "^1.2.1",
     "rollup": "^2.18.1",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.1",
     "ts-loader": "^7.0.5",
     "tslib": "^2.0.0",
-    "typescript": "^3.9.5"
-  },
-  "dependencies": {
-    "lit-element": "^2.3.1"
+    "typescript": "^3.9.6"
   }
 }

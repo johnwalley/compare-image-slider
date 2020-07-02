@@ -20,10 +20,10 @@ export default {
       globals: { react: "React" },
     },
   ],
-  // eslint-disable-next-line no-undef
   plugins: [
     resolve(),
     typescript({
+      // eslint-disable-next-line no-undef
       typescript: require("typescript"),
       useTsconfigDeclarationDir: true,
     }),

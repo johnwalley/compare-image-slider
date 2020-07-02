@@ -10,8 +10,8 @@ import {
 } from "lit-element";
 import { styleMap } from "lit-html/directives/style-map";
 
-@customElement("before-after-slider")
-export class BeforeAfterSlider extends LitElement {
+@customElement("compare-image-slider")
+export class CompareImageSlider extends LitElement {
   @query("#container")
   container: HTMLElement;
 
