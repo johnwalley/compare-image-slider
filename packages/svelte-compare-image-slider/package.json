@@ -4,6 +4,11 @@
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnwalley/compare-image-slider.git",
+    "directory": "packages/svelte-compare-image-slider"
+  },
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",

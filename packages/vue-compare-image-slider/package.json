@@ -4,6 +4,11 @@
   "main": "dist/vue-compare-image-slider.umd.js",
   "module": "dist/vue-compare-image-slider.esm.js",
   "unpkg": "dist/vue-compare-image-slider.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnwalley/compare-image-slider.git",
+    "directory": "packages/vue-compare-image-slider"
+  },
   "browser": {
     "./sfc": "src/components/vue-compare-image-slider.vue"
   },
