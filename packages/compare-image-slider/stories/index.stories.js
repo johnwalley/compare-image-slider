@@ -4,10 +4,10 @@ import before from "./images/asite1-1.jpg";
 import after from "./images/asite1-2.jpg";
 
 export default {
-  title: "Demo"
+  title: "compare-image-slider",
 };
 
-export const Slider = () => html`
+export const Default = () => html`
   <before-after-slider>
     <img slot="left" width="100%" src=${after} />
     <img slot="right" width="100%" src=${before} />
