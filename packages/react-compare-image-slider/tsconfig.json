@@ -6,7 +6,6 @@
     "declaration": true,
     "declarationDir": "build/types",
     "moduleResolution": "node"
-
   },
   "include": ["src"]
 }
