@@ -1,6 +1,6 @@
 {
   "name": "compare-image-slider",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "",
   "main": "build/compare-image-slider.js",
   "module": "build/compare-image-slider.js",
