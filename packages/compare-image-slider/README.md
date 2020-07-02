@@ -3,7 +3,7 @@ To use the compare-image-slider component in your code:
 From your project folder, install the component from npm.
 
 ```sh
-npm install some-package-name
+npm install compare-image-slider
 ```
 
 Import the component.
