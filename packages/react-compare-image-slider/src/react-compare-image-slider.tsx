@@ -7,10 +7,10 @@ export function ReactCompareImageSlider({
 }): JSX.Element {
   return (
     <>
-      <before-after-slider>
+      <compare-image-slider>
         <img slot="left" width="100%" draggable="false" src={leftImage} />
         <img slot="right" width="100%" draggable="false" src={rightImage} />
-      </before-after-slider>
+      </compare-image-slider>
     </>
   );
 }
@@ -18,7 +18,7 @@ export function ReactCompareImageSlider({
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      "before-after-slider": any;
+      "compare-image-slider": any;
     }
   }
 }

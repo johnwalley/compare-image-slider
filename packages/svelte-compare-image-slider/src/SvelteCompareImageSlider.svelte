@@ -9,7 +9,7 @@
 
 </style>
 
-<before-after-slider>
+<compare-image-slider>
   <img slot="left" width="100%" draggable="false" src={leftImage} alt="left" />
   <img
     slot="right"
@@ -17,4 +17,4 @@
     draggable="false"
     src={rightImage}
     alt="right" />
-</before-after-slider>
+</compare-image-slider>

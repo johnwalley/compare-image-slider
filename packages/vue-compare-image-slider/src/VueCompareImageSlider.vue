@@ -1,8 +1,8 @@
 <template>
-  <before-after-slider>
+  <compare-image-slider>
     <img slot="left" draggable="false" width="100%" :src="leftImage" />
     <img slot="right" draggable="false" width="100%" :src="rightImage" />
-  </before-after-slider>
+  </compare-image-slider>
 </template>
 
 <script lang="ts">
