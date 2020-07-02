@@ -1,3 +1,7 @@
+# react-compare-image-slider
+
+A simple tool for comparing two images.
+
 To use the react-compare-image-slider component in your code:
 
 From your project folder, install the component from npm.
