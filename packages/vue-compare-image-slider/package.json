@@ -1,6 +1,6 @@
 {
   "name": "vue-compare-image-slider",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "dist/vue-compare-image-slider.umd.js",
   "module": "dist/vue-compare-image-slider.esm.js",
   "unpkg": "dist/vue-compare-image-slider.min.js",
@@ -21,7 +21,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "compare-image-slider": "^0.1.5",
+    "compare-image-slider": "^0.1.8",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
