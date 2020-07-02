@@ -4,9 +4,8 @@
   "keywords": [
     "vue"
   ],
-  "main": "dist/vue-compare-image-slider.umd.js",
-  "module": "dist/vue-compare-image-slider.esm.js",
-  "unpkg": "dist/vue-compare-image-slider.min.js",
+  "main": "dist/vueCompareImageSlider.umd.js",
+  "unpkg": "dist/vueCompareImageSlider.min.js",
   "browser": {
     "./sfc": "src/components/vue-compare-image-slider.vue"
   },
