@@ -1,11 +1,12 @@
 {
   "name": "vue-compare-image-slider",
   "version": "0.1.13",
+  "description": "",
   "keywords": [
     "vue"
   ],
   "main": "dist/vueCompareImageSlider.umd.js",
-  "unpkg": "dist/vueCompareImageSlider.min.js",
+  "unpkg": "dist/vueCompareImageSlider.umd.min.js",
   "browser": {
     "./sfc": "src/components/vue-compare-image-slider.vue"
   },
@@ -20,7 +21,7 @@
     "src"
   ],
   "scripts": {
-    "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/VueCompareImageSlider.vue",
+    "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/VueCompareImageSlider.vue --report",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -28,7 +29,6 @@
   "dependencies": {
     "compare-image-slider": "^0.1.12",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.0.0"
   },
@@ -57,6 +57,10 @@
     "eslint-plugin-vue": "^6.2.2",
     "prettier": "2.0.5",
     "typescript": "^3.9.5",
+    "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.11"
   }
 }
