@@ -21,7 +21,7 @@
     "src"
   ],
   "scripts": {
-    "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/VueCompareImageSlider.vue --report",
+    "build": "vue-cli-service build --target lib --name vueCompareImageSlider src/VueCompareImageSlider.vue",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
