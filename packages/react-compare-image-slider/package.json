@@ -1,6 +1,6 @@
 {
   "name": "react-compare-image-slider",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "description": "",
   "keywords": [
     "react"
@@ -26,7 +26,7 @@
   },
   "types": "build/types/react-compare-image-slider.d.ts",
   "dependencies": {
-    "compare-image-slider": "^0.1.12"
+    "compare-image-slider": "^0.1.14"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",

@@ -1,6 +1,6 @@
 {
   "name": "svelte-compare-image-slider",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "keywords": [
     "svelte"
   ],
@@ -24,7 +24,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "compare-image-slider": "^0.1.12"
+    "compare-image-slider": "^0.1.14"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
