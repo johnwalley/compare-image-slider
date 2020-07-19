@@ -30,11 +30,18 @@
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@storybook/preset-typescript": "^3.0.0",
     "@storybook/svelte": "^5.3.19",
+    "@tsconfig/svelte": "^1.0.2",
     "babel-loader": "^8.1.0",
     "rollup": "^2.18.1",
     "rollup-plugin-svelte": "^5.2.3",
     "svelte": "^3.23.2",
-    "svelte-loader": "^2.13.6"
+    "svelte-check": "^0.1.53",
+    "svelte-loader": "^2.13.6",
+    "svelte-preprocess": "^4.0.8",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7"
   }
 }

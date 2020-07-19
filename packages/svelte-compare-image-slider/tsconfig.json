@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*", "stories/**/*"],
+  "exclude": ["node_modules/*", "public/*"],
+  "rootDirs": ["src", "stories"]
+}
