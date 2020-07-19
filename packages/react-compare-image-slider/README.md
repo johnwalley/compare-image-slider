@@ -1,5 +1,7 @@
 # react-compare-image-slider
 
+![npm](https://img.shields.io/npm/v/react-compare-image-slider) ![npm](https://img.shields.io/npm/l/compare-image-slider)
+
 A simple tool for comparing two images.
 
 To use the react-compare-image-slider component in your code:

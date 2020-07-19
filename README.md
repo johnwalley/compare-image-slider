@@ -1,6 +1,6 @@
 # Compare Image Slider
 
-![npm](https://img.shields.io/npm/v/compare-image-slider) ![CI](https://github.com/johnwalley/compare-image-slider/workflows/CI/badge.svg) ![GitHub](https://img.shields.io/github/license/johnwalley/compare-image-slider)
+![CI](https://github.com/johnwalley/compare-image-slider/workflows/CI/badge.svg) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) ![GitHub](https://img.shields.io/github/license/johnwalley/compare-image-slider)
 
 Compare Image Slider is a simple interactive component for comparing two images. Ready to use with:
 

@@ -1,5 +1,7 @@
 # compare-image-slider
 
+![npm](https://img.shields.io/npm/v/compare-image-slider) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/compare-image-slider) ![npm](https://img.shields.io/npm/l/compare-image-slider)
+
 A simple tool for comparing two images.
 
 To use the compare-image-slider component in your code:
