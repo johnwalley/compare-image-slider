@@ -1,7 +1,7 @@
 {
   "name": "vue-compare-image-slider",
   "version": "0.1.14",
-  "description": "",
+  "description": "A simple interactive component for comparing two images",
   "keywords": [
     "vue"
   ],
