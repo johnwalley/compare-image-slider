@@ -60,7 +60,7 @@ export class CompareImageSlider extends LitElement {
         top: 50%;
         margin-left: -19px;
         margin-top: -19px;
-        border: 3px solid white;
+        border: 3px solid var(--handle-color, white);
         border-radius: 19px;
         box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
         cursor: ew-resize;
@@ -75,7 +75,7 @@ export class CompareImageSlider extends LitElement {
         margin-left: -1.5px;
         width: 3px;
         height: 1000px;
-        background: white;
+        background: var(--handle-color, white);
         box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
       }
 
@@ -88,7 +88,7 @@ export class CompareImageSlider extends LitElement {
         margin-left: -1.5px;
         width: 3px;
         height: 1000px;
-        background: white;
+        background: var(--handle-color, white);
         box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
       }
 
