@@ -10,6 +10,9 @@ import {
 } from "lit-element";
 import { styleMap } from "lit-html/directives/style-map";
 
+/**
+ * `compare-image-slider` is an element which compares two images.
+ */
 @customElement("compare-image-slider")
 export class CompareImageSlider extends LitElement {
   @query("#container")
