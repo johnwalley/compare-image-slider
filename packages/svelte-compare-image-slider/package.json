@@ -1,6 +1,6 @@
 {
   "name": "svelte-compare-image-slider",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "A simple interactive component for comparing two images",
   "keywords": [
     "svelte"
@@ -25,7 +25,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "compare-image-slider": "^0.1.14"
+    "compare-image-slider": "^0.1.15"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",

@@ -1,6 +1,6 @@
 {
   "name": "compare-image-slider",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "A simple interactive component for comparing two images",
   "keywords": [
     "web-component"
