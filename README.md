@@ -4,10 +4,10 @@
 
 Compare Image Slider is a simple interactive component for comparing two images. Ready to use with:
 
-- Web Components
-- React
-- Svelte
-- Vue
+- [Web Components](/packages/compare-image-slider/README.md)
+- [React](/packages/react-compare-image-slider/README.md)
+- [Svelte](/packages/svelte-compare-image-slider/README.md)
+- [Vue](/packages/vue-compare-image-slider/README.md)
 
 <p align="center">
   <img src="./assets/example.gif" alt="Comparison of two images" />
