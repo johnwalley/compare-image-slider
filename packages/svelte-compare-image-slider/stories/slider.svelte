@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import SvelteCompareImageSlider from "../src";
 
   export let leftImage;
