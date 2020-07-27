@@ -1,6 +1,6 @@
 # compare-image-slider
 
-![npm](https://img.shields.io/npm/v/compare-image-slider) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/compare-image-slider) ![npm](https://img.shields.io/npm/l/compare-image-slider)
+[![npm](https://img.shields.io/npm/v/compare-image-slider)](https://www.npmjs.com/package/compare-image-slider) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/compare-image-slider) [![npm](https://img.shields.io/npm/l/compare-image-slider)](../../LICENSE)
 
 A simple tool for comparing two images.
 

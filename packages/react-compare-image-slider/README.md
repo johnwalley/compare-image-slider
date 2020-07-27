@@ -1,6 +1,6 @@
 # react-compare-image-slider
 
-![npm](https://img.shields.io/npm/v/react-compare-image-slider) ![npm](https://img.shields.io/npm/l/compare-image-slider)
+[![npm](https://img.shields.io/npm/v/react-compare-image-slider)](https://www.npmjs.com/package/react-compare-image-slider) [![npm](https://img.shields.io/npm/l/compare-image-slider)](../../LICENSE)
 
 A simple tool for comparing two images.
 
