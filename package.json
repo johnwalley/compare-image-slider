@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build-storybook": "lerna run build-storybook --scope=compare-image-slider"
+    "build-storybook": "lerna run build-storybook --scope=compare-image-slider --"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
