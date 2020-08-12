@@ -16,17 +16,14 @@ jobs:
         with:
           fetch-depth: 0 # Required to retrieve git history
 
-      - name: install dependencies
+      - name: Install dependencies
         run: yarn
 
-      # Build packages
-      - name: Run a one-line script
+      - name: Build
         run: npx lerna run build
 
-      #
       - uses: chromaui/action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: packages/compare-image-slider/storybook-static
           exitZeroOnChanges: true,
