@@ -22,7 +22,8 @@
     "build": "rollup -c",
     "prepublishOnly": "yarn run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token yhpi7jhkjh"
   },
   "types": "build/types/compare-image-slider.d.ts",
   "dependencies": {
@@ -37,6 +38,7 @@
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/web-components": "^5.3.19",
     "babel-loader": "^8.1.0",
+    "chromatic": "^5.1.0",
     "fork-ts-checker-webpack-plugin": "^5.0.5",
     "lit-html": "^1.2.1",
     "rollup": "^2.18.1",

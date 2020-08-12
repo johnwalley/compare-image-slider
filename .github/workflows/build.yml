@@ -2,21 +2,29 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Required to retrieve git history
 
-    - name: install dependencies
-      run: yarn
+      - name: install dependencies
+        run: yarn
 
-    # Build packages
-    - name: Run a one-line script
-      run: npx lerna run build
+      # Build packages
+      - name: Run a one-line script
+        run: npx lerna run build
+
+      #
+      - uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
