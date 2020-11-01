@@ -36,7 +36,7 @@
     "@babel/core": "^7.10.3",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@babel/plugin-proposal-decorators": "^7.10.3",
-    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-actions": "^6.0.28",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^6.0.21",
     "@storybook/preset-typescript": "^3.0.0",
