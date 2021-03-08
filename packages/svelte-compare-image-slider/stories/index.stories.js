@@ -11,3 +11,8 @@ export const Default = () => ({
   Component: Slider,
   props: { leftImage: leftImage, rightImage: rightImage },
 });
+
+export const Styling = () => ({
+  Component: Slider,
+  props: { leftImage: leftImage, rightImage: rightImage, handleColor: "red" },
+});

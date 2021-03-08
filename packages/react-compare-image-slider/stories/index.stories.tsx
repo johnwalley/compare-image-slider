@@ -14,3 +14,15 @@ export const Default = () => (
     <ReactCompareImageSlider leftImage={leftImage} rightImage={rightImage} />
   </div>
 );
+
+export const Styling = () => {
+  const style = {
+    "--handle-color": "red",
+  } as React.CSSProperties;
+
+  return (
+    <div style={style}>
+      <ReactCompareImageSlider leftImage={leftImage} rightImage={rightImage} />
+    </div>
+  );
+};

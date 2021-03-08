@@ -9,5 +9,10 @@ export default {
 
 export const Default = () => ({
   components: { VueCompareImageSlider },
-  template: `<VueCompareImageSlider leftImage=${before} rightImage=${after} />`,
+  template: `<vue-compare-image-slider leftImage=${before} rightImage=${after} />`,
+});
+
+export const Styling = () => ({
+  components: { VueCompareImageSlider },
+  template: `<VueCompareImageSlider leftImage=${before} rightImage=${after} v-bind:style="{ '--handle-color': 'red' }" />`,
 });
